@@ -1,0 +1,14 @@
+retardoDesligaMonitorEmSegundos=180
+programa=9000
+versao=2
+revisao=1
+aquecimentoLigado=0
+coldStart=9000
+refAtrasoSPI=56
+senhaProtecaoNivel1=0
+senhaProtecaoNivel2=0
+senhaProtecaoNivel3=0
+senhaProtecaoNivel4=0
+ultimaReceitaLida=0
+fatorSegurancaFiltroEntradasDigitais=1
+<EOF>
