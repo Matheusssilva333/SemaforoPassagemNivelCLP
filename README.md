@@ -28,12 +28,7 @@ sinaleiro. O tempo de alternância é configurado pela IHM.
 - `auxVezDaLampadaB` não era desligado no fim seguinte.
 - O `dsp_` não caía após o `fim_`, então a contagem não reiniciava.
 
-## Validação
-- [ ] Sintaxe aceita pelo software Branqs
-- [ ] Alternância observada com trem presente
-- [ ] Lâmpadas apagam quando o trem sai
-- [ ] Vez reinicia em A em um novo trem
-- [ ] Tempo configurado pela IHM tem efeito
+
 
 
 

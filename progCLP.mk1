@@ -1,0 +1,33 @@
+!define BLANK ""
+D:\Dados\Empresa\0005_EngenhariaProduto\0005_EstudosDeEngenharia\0022_StackP&
+ilhaProgramasFrameworkCLPbranqs_V01R15\90000203_src\CODBASE.obj : D:\Dados\E&
+mpresa\0005_EngenhariaProduto\0005_EstudosDeEngenharia\0022_StackPilhaProgra&
+masFrameworkCLPbranqs_V01R15\90000203_src\CODBASE.CPP .AUTODEPEND
+ @D:
+ cd D:\Dados\Empresa\0005_EngenhariaProduto\0005_EstudosDeEngenharia\0022_St&
+ackPilhaProgramasFrameworkCLPbranqs_V01R15\90000203_src
+ *wpp386 CODBASE.CPP -i="C:\WATCOM/h" -w4 -e25 -zq -od -d2 -6r -bt=dos -fo=.&
+obj -mf -xs -xr
+
+D:\Dados\Empresa\0005_EngenhariaProduto\0005_EstudosDeEngenharia\0022_StackP&
+ilhaProgramasFrameworkCLPbranqs_V01R15\90000203_src\progCLP.exe : D:\Dados\E&
+mpresa\0005_EngenhariaProduto\0005_EstudosDeEngenharia\0022_StackPilhaProgra&
+masFrameworkCLPbranqs_V01R15\90000203_src\DECLARA.CLP D:\Dados\Empresa\0005_&
+EngenhariaProduto\0005_EstudosDeEngenharia\0022_StackPilhaProgramasFramework&
+CLPbranqs_V01R15\90000203_src\ENTRADA.CLP D:\Dados\Empresa\0005_EngenhariaPr&
+oduto\0005_EstudosDeEngenharia\0022_StackPilhaProgramasFrameworkCLPbranqs_V0&
+1R15\90000203_src\LOGICA.CLP D:\Dados\Empresa\0005_EngenhariaProduto\0005_Es&
+tudosDeEngenharia\0022_StackPilhaProgramasFrameworkCLPbranqs_V01R15\90000203&
+_src\SAIDA.CLP D:\Dados\Empresa\0005_EngenhariaProduto\0005_EstudosDeEngenha&
+ria\0022_StackPilhaProgramasFrameworkCLPbranqs_V01R15\90000203_src\CODBASE.o&
+bj D:\Dados\Empresa\0005_EngenhariaProduto\0005_EstudosDeEngenharia\0022_Sta&
+ckPilhaProgramasFrameworkCLPbranqs_V01R15\90000203_src\bcv03r88.lib .AUTODEP&
+END
+ @D:
+ cd D:\Dados\Empresa\0005_EngenhariaProduto\0005_EstudosDeEngenharia\0022_St&
+ackPilhaProgramasFrameworkCLPbranqs_V01R15\90000203_src
+ @%write progCLP.lk1 FIL CODBASE.obj
+ @%append progCLP.lk1 LIBR bcv03r88.lib
+ *wlink name progCLP d all sys causeway op m op maxe=25 op q op symf @progCL&
+P.lk1
+
